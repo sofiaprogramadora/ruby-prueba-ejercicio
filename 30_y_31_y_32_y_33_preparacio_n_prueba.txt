@@ -1,0 +1,46 @@
+Ejercicio Tipo Prueba de Ruby
+El objetivo de esta prueba es demostrar que se pueden
+resolver problemas básicos utilizando ruby.
+
+Los problemas a evaluar en esta prueba son del tipo abrir
+un archivo, procesar información y luego guardar los
+cambios en otro archivo.
+
+Para procesar la información ocuparemos principalmente
+Arrays y Hashes, y sus métodos más comunes, como .each,
+.count y .map
+
+Entender esta mecánica nos permitirá trabajar de forma
+sencilla con bases de datos y mostrar los resultados que
+necesitemos en nuestras aplicaciones web.
+
+Buena suerte !!
+
+Comienza la prueba
+Se tiene un archivo con formato .csv con nombres de alumnos e información de notas.
+
+El archivo tiene el siguiente formato.
+
+Juan, 9, 2, 5, 1, 1
+Felipe, 10, 2, A, 8, 1
+Javiera, 10, 10, 9, 9, A
+Gonzalo, 10, 10, 10, 10, 10
+
+Donde la A señala que el alumno estuvo ausente en la prueba.
+
+Se pide:
+Crear un menú con 4 opciones, se debe validar que la opción escogida sea 1, 2, 3, o
+4, si el usuario ingresa cualquier otra opción se debe mostrar que la opción es
+inválida, y mostrar el menú nuevamente y la opción de elegir.
+Si el usuario ingresa la opción 4 el programa sale.
+Si el usuario ingresa la opción 1, se debe generar un archivo con el nombre de cada
+alumno y el promedio de sus notas.
+Tip: Se puede leer archivo completo o ir leyendo y calculando por línea,
+ambas opciones son válidas.
+Si el usuario ingresa la opción 2 se debe contar la cantidad de inasistencias totales y
+mostrarlas en pantalla.
+Si el usuario ingresa la opción 3 se debe mostrar que alumnos aprobaron, para eso
+hay que crear un método que recibe como argumento la nota necesaria para
+aprobación, por defecto esa nota es 5.
+
+

@@ -1,0 +1,4 @@
+Juan 3
+Felipe 4
+Javiera 7
+Gonzalo 10
